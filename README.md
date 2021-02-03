@@ -19,5 +19,16 @@ Enter weight: 65</br>
 Enter height: 180</br>
 BMI is 20.06.</br></i>
 
-<b>Solution:</b>
-Running the programing will ask the user to enter their height in centimetres. Next, it will ask the user to enter their weight in kilograms. The program then calculates the BMI number from the user's input and displays a message to give the user their BMI number and also their weight range. I used a BMI calculator that I found through Google as a reference when making the program so that I was certain the calculations where correct and that I was getting the same BMI number in my program as the website's BMI calculator. I also used it to add an extra feature to my program to give the user their weight range based on what their BMI number is so for example, if the user was given a BMI number of less than 18.5 then the user is classified as Underweight, if it's greater than 18.5 but less than 24.9 then the user is classified as Healty, if it's greater than 24.9 but less than 29.9 then the user is classified as Overweight and if it is greater than 29.9 than the user is classified as Overweight. While it may not have been necessary to complete the task, I thought I should add it in as an extra feature.
+<b>Solution:</b></br>
+Running the programing will ask the user to enter their height in centimetres. Next, it will ask the user to enter their weight in kilograms. The program then calculates the BMI number from the user's input and displays a message to give the user their BMI number and also their weight range. I used a BMI calculator that I found through Google as a reference when making the program so that I was certain the calculations where correct and that I was getting the same BMI number in my program as the website's BMI calculator. I also used it to add an extra feature to my program to give the user their weight range based on what their BMI number is so for example, if the user was given a BMI number of less than 18.5 then the user is classified as Underweight, if it's greater than 18.5 but less than 24.9 then the user is classified as Healty, if it's greater than 24.9 but less than 29.9 then the user is classified as Overweight and if it is greater than 29.9 than the user is classified as Overweight. While it may not have been necessary to include weight ranges for this task, I thought I should add it in as an extra feature. The program also forces the user to only enter numbers when asked for input, anything else will throw a message asking the user to enter a number and start again.
+
+<b>References:</b></br>
+<a href="https://patient.info/doctor/bmi-calculator-calculator">BMI Calculator</a> - Used as a reference when making the program.
+
+<h2><b>Task #2: bitcoin.py</b></h2>
+
+<b>Task:</b>
+<i>Write a program (bitcoin.py) that prints out todays bitcoin price in dollars.</i>
+
+<b>Solution:</b></br>
+
