@@ -34,7 +34,7 @@ Running the programing will ask the user to enter their height in centimetres. N
 Running the program will make a request to the given URL and gathers the data from it, more specifically the data attaining to the current Bitcoin rate in Euros, British Pounds and US Dollars. The program uses a for loop to iterate through the section labelled 'bpi' which contains the necessary data required for the program and displays the current rate for each curreny.
 
 <b>References:</b></br>
-<a href="https://api.coindesk.com/v1/bpi/currentprice.json">Bitcoin Current Price</a> - URL containing the JSON data used in the program which contains the currency rates.
+<a href="https://api.coindesk.com/v1/bpi/currentprice.json">Bitcoin Current Price</a> - URL containing the JSON data used in the program which contains the currency rates.</br>
 <a href="jsonlint.com">JSONLint</a> - Used to tidy up the JSON data from the URL as it was difficult to read it.
 
 <h2><b>Weekly Task #4: collatz.py</b></h2>
