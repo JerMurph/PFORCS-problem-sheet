@@ -6,7 +6,7 @@ Created by Jerry Murphy.
 
 All the code in this repository was done on Microsoft Visual Studio.
 
-<h2><b>Task #1: bmi.py</b></h2>
+<h2><b>Weekly Task #2: bmi.py</b></h2>
 
 <b>Task:</b>
 
@@ -25,10 +25,30 @@ Running the programing will ask the user to enter their height in centimetres. N
 <b>References:</b></br>
 <a href="https://patient.info/doctor/bmi-calculator-calculator">BMI Calculator</a> - Used as a reference when making the program.
 
-<h2><b>Task #2: bitcoin.py</b></h2>
+<h2><b>Weekly Task #3: bitcoin.py</b></h2>
 
 <b>Task:</b>
 <i>Write a program (bitcoin.py) that prints out todays bitcoin price in dollars.</i>
 
 <b>Solution:</b></br>
+Running the program will make a request to the given URL and gathers the data from it, more specifically the data attaining to the current Bitcoin rate in Euros, British Pounds and US Dollars. The program uses a for loop to iterate through the section labelled 'bpi' which contains the necessary data required for the program and displays the current rate for each curreny.
 
+<b>References:</b></br>
+<a href="https://api.coindesk.com/v1/bpi/currentprice.json">Bitcoin Current Price</a> - URL containing the JSON data used in the program which contains the currency rates.
+<a href="jsonlint.com">JSONLint</a> - Used to tidy up the JSON data from the URL as it was difficult to read it.
+
+<h2><b>Weekly Task #4: collatz.py</b></h2>
+
+<b>Task:</b>
+<i>Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.</br>
+At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.</br>
+Have the program end if the current value is one.</br>
+
+$ python collatz.py</br>
+
+Please enter a positive integer: 10</br>
+
+10 5 16 8 4 2 1</i></br>
+
+<b>Solution:</b></br>
+The program asks the user to enter a positive number. The number entered by the user is calculated based on whether it is an odd or even number and continues until the current value is one by which point both program ends. If the number is even, the number is then divided by 2. If the number is odd, it is multiplied by 3 and has a 1 added to the end of it. If the user enters 1 then the program automatically ends. The program displays the initial user input and the current number from each calculation until the current value is 1.
