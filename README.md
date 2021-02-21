@@ -52,3 +52,24 @@ Please enter a positive integer: 10</br>
 
 <b>Solution:</b></br>
 The program asks the user to enter a positive number. The number entered by the user is calculated based on whether it is an odd or even number and continues until the current value is one by which point both program ends. If the number is even, the number is then divided by 2. If the number is odd, it is multiplied by 3 and has a 1 added to the end of it. If the user enters 1 then the program automatically ends. The program displays the initial user input and the current number from each calculation until the current value is 1.
+
+<h2><b>Weekly Task #5: squareroot.py</b></h2>
+
+<b>Task:</b></br>
+<i>Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+
+You should create a function called <tt>sqrt</tt> that does this.
+
+I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x)
+
+I suggest that you look at the newton method at estimating square roots
+
+$ python squareroot.py</br>
+Please enter a positive number: 14.5</br>
+The square root of 14.5 is approx. 3.8.</i></br>
+
+<b>Solution:</b></br>
+The program asks the user to enter a positive number. When entered, the program then assigns the input as an argument to the first method (calcSquareRoot) and assigns it to a new variable. The root is then calculated using a while loop which keeps iterating until the calculated root comes inside the tolerence and breaks out of the loop and activates displays the square root to the nearest decimal point.
+
+<b>References:</b></br>
+<a href="https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/"></a> - Used as a reference for figuring out how to do the Newton method
