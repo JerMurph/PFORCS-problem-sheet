@@ -72,4 +72,4 @@ The square root of 14.5 is approx. 3.8.</i></br>
 The program asks the user to enter a positive number. When entered, the program then assigns the input as an argument to the first method (calcSquareRoot) and assigns it to a new variable. The root is then calculated using a while loop which keeps iterating until the calculated root comes inside the tolerence and breaks out of the loop and activates displays the square root to the nearest decimal point.
 
 <b>References:</b></br>
-<a href="https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/"></a> - Used as a reference for figuring out how to do the Newton method
+<a href="https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/">Find root of a number using Newton’s method</a> - Used as a reference for figuring out how to do the Newton method
