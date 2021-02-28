@@ -73,3 +73,19 @@ The program asks the user to enter a positive number. When entered, the program 
 
 <b>References:</b></br>
 <a href="https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/">Find root of a number using Newton’s method</a> - Used as a reference for figuring out how to do the Newton method
+
+<h2><b>Weekly Task #6: es.py</b></h2>
+
+<b>Task:</b></br>
+Write a program that reads in a text file and outputs the number of e's it contains.</br>
+
+The program should take the filename from an argument on the command line.</br>
+
+$ python es.py moby-dick.txt</br>
+116960</br>
+
+<b>Solution:</b></br>
+The program opens up and reads a file and the program then iterates through the entire file and when it encounters an e, it increase the count by one and does this until it gets to the end of the file.
+
+<b>References:</b></br>
+<a href="https://www.gutenberg.org/files/2701/old/moby10b.txt">The Project Gutenberg Etext of Moby Dick</a> - Source of the filename used for the program
