@@ -85,7 +85,38 @@ $ python es.py moby-dick.txt</br>
 116960</br>
 
 <b>Solution:</b></br>
-The program opens up and reads a file and the program then iterates through the entire file and when it encounters an e, it increase the count by one and does this until it gets to the end of the file.
+The program, through a command line, opens up and reads a file and the program then iterates through the entire file and when it encounters an e, it increase the count by one and does this until it gets to the end of the file.
 
 <b>References:</b></br>
 <a href="https://www.gutenberg.org/files/2701/old/moby10b.txt">The Project Gutenberg Etext of Moby Dick</a> - Source of the filename used for the program
+
+<h2><b>Weekly Task #7: extract-url.py</b></h2>
+
+<b>Task:</b></br>
+Write a program called extract-url.py, that will extract the URLs from an access.log file. </br>
+
+ie The part of the URL that is stored in the access.log file, complete with the query parameters (I am aware that the host name is not stored in this file, the referring host is)</br>
+
+The program should store the URLs as strings in a list</br>
+
+[</br>
+'/cart.do?action=view&itemId=EST-6&productId=SC-MG-G10&JSESSIONID=SD5SL9FF2ADFF4958',</br>
+'/category.screen?categoryId=SHOOTER&JSESSIONID=SD7SL9FF5ADFF5066' </br>
+]</br>
+
+Store the URLs as a Dictionary object in the list with the resource and parameter names and values separated out eg</br>
+
+[</br>
+   {</br>
+     'resource':'cart.do', </br>
+     'parameters':{</br>
+         'action':'view',</br>
+         'itemId':'EST-6',</br>
+         'productId':'SC-MG-G10'</br>
+         'JSESSIONID':'SD5SL9FF2ADFF4958'</br>
+     }</br>
+   },</br>
+   #next dictionary object</br>
+]</br>
+
+<b>Solution:</b></br>
