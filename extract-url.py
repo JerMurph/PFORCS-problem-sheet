@@ -16,7 +16,7 @@ def extractURL():
                 url = re.findall('(?:(GET|POST) )(\S+)', line)[0][1] #Get all the query parameters from every URL
                 urls.append(url)   #Add them to the list
 
-                #Split up the url from the ? and the parameters by the &
+                #Split up the url from the / to the ? and the parameters by the &
                 urlPath = re.split('\?', url)[0]
                 urlParameters = re.split('\?', url)[1]
                 urlParameter = re.split('&', urlParameters)
