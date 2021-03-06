@@ -8,8 +8,7 @@ All the code in this repository was done on Microsoft Visual Studio.
 
 <h2><b>Weekly Task #2: bmi.py</b></h2>
 
-<b>Task:</b>
-
+<b>Task:</b></br>
 <i>Write a program that calculates somebody's Body Mass Index (BMI).</br>
 The inputs are the person's height in centimetres and weight in kilograms.</br>
 The output is their weight divided by their height in metres squared.</br>
@@ -27,7 +26,7 @@ Running the programing will ask the user to enter their height in centimetres. N
 
 <h2><b>Weekly Task #3: bitcoin.py</b></h2>
 
-<b>Task:</b>
+<b>Task:</b></br>
 <i>Write a program (bitcoin.py) that prints out todays bitcoin price in dollars.</i>
 
 <b>Solution:</b></br>
@@ -39,7 +38,7 @@ Running the program will make a request to the given URL and gathers the data fr
 
 <h2><b>Weekly Task #4: collatz.py</b></h2>
 
-<b>Task:</b>
+<b>Task:</b></br>
 <i>Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.</br>
 At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.</br>
 Have the program end if the current value is one.</br>
@@ -120,3 +119,4 @@ Store the URLs as a Dictionary object in the list with the resource and paramete
 ]</br>
 
 <b>Solution:</b></br>
+The program reads from the access.log file and reads through the file and grabs all the urls and extracts the query parameters while ignoring the host name and stores them in a list. Next, the program then splits up the url parameters and splits them up and sorts them into two categories: resource and parameters which are then added to a dictionary. Resources are split from the '/' tp the '?' and the parameters by the '&'.
