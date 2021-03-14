@@ -129,3 +129,6 @@ Some marks will be given for making the plot look nice.</br>
 
 <b>Solution:</b></br>
 I intialize the X-Axis with the given range and then the Y-Axes with the given functions. Next I add colors and labels for each of the Y-Axes to keep it neat and organized and make the graph easier to read and also labels to display where the X and Y-Axes are. Finally I add a legend so that everything I mentioned previously can be displayed on the graph.
+
+<b>References:</b></br>
+<a href="https://scriptverse.academy/tutorials/python-matplotlib-plot-function.html">Matplotlib: Plot a Function y=f(x)</a> - Used to figure out how to add colors and labels to the Y-Axes to make the graph much neater</br>
