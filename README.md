@@ -120,3 +120,12 @@ Store the URLs as a Dictionary object in the list with the resource and paramete
 
 <b>Solution:</b></br>
 The program reads from the access.log file and reads through the file and grabs all the urls and extracts the query parameters while ignoring the host name and stores them in a list. Next, the program then splits up the url parameters and splits them up and sorts them into two categories: resource and parameters which are then added to a dictionary. Resources are split from the '/' tp the '?' and the parameters by the '&'.
+
+<h2><b>Weekly Task #8: plottask.py</b></h2>
+
+<b>Task:</b></br>
+Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.</br>
+Some marks will be given for making the plot look nice.</br>
+
+<b>Solution:</b></br>
+I intialize the X-Axis with the given range and then the Y-Axes with the given functions. Next I add colors and labels for each of the Y-Axes to keep it neat and organized and make the graph easier to read and also labels to display where the X and Y-Axes are. Finally I add a legend so that everything I mentioned previously can be displayed on the graph.
