@@ -84,7 +84,7 @@ $ python es.py moby-dick.txt</br>
 116960</br>
 
 <b>Solution:</b></br>
-The program, through a command line, opens up and reads a file and the program then iterates through the entire file and when it encounters an e, it increase the count by one and does this until it gets to the end of the file.
+The program, through a command line for which I used the cmder command line and put the es.py and moby-dick.txt into the directory in order to make it work, opens up using the command "python es.py moby-dick.txt" and reads and the program then iterates through the entire file and when it encounters an e, it increase the count by one and does this until it gets to the end of the file.
 
 <b>References:</b></br>
 <a href="https://www.gutenberg.org/files/2701/old/moby10b.txt">The Project Gutenberg Etext of Moby Dick</a> - Source of the filename used for the program
