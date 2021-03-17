@@ -132,3 +132,16 @@ I intialize the X-Axis with the given range and then the Y-Axes with the given f
 
 <b>References:</b></br>
 <a href="https://scriptverse.academy/tutorials/python-matplotlib-plot-function.html">Matplotlib: Plot a Function y=f(x)</a> - Used to figure out how to add colors and labels to the Y-Axes to make the graph much neater</br>
+
+<h2><b>Weekly Task #9: weeklyTask9.py</b></h2></br>
+
+<b>Task:</b></br>
+I want to find which sessionId downloaded the most data</br>
+Read the access.log into a dataframe (see lab)</br>
+Set the date time to be the index (you will need to manipulate this data, see lab)</br>
+Use regular expressions to extract the session id from the URLs and store them in a different column (use the apply function, see lab)</br>
+Use groupBy to get the sum of all the data downloaded by each sessionId.</br>
+Create a plot of this (type of your choice)</br>
+Work out the amount of data each sessionId downloaded in any given day</br>
+
+<b>Solution:</b></br>
