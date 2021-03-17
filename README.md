@@ -76,12 +76,12 @@ The program asks the user to enter a positive number. When entered, the program 
 <h2><b>Weekly Task #6: es.py</b></h2>
 
 <b>Task:</b></br>
-Write a program that reads in a text file and outputs the number of e's it contains.</br>
+<i>Write a program that reads in a text file and outputs the number of e's it contains.</br>
 
 The program should take the filename from an argument on the command line.</br>
 
 $ python es.py moby-dick.txt</br>
-116960</br>
+116960</br></i>
 
 <b>Solution:</b></br>
 The program, through a command line for which I used the cmder command line and put the es.py and moby-dick.txt into the directory in order to make it work, opens up using the command "python es.py moby-dick.txt" and reads and the program then iterates through the entire file and when it encounters an e, it increase the count by one and does this until it gets to the end of the file.
@@ -92,7 +92,7 @@ The program, through a command line for which I used the cmder command line and 
 <h2><b>Weekly Task #7: extract-url.py</b></h2>
 
 <b>Task:</b></br>
-Write a program called extract-url.py, that will extract the URLs from an access.log file. </br>
+<i>Write a program called extract-url.py, that will extract the URLs from an access.log file. </br>
 
 ie The part of the URL that is stored in the access.log file, complete with the query parameters (I am aware that the host name is not stored in this file, the referring host is)</br>
 
@@ -116,7 +116,7 @@ Store the URLs as a Dictionary object in the list with the resource and paramete
      }</br>
    },</br>
    #next dictionary object</br>
-]</br>
+]</br></i>
 
 <b>Solution:</b></br>
 The program reads from the access.log file and reads through the file and grabs all the urls and extracts the query parameters while ignoring the host name and stores them in a list. Next, the program then splits up the url parameters and splits them up and sorts them into two categories: resource and parameters which are then added to a dictionary. Resources are split from the '/' tp the '?' and the parameters by the '&'.
@@ -124,8 +124,8 @@ The program reads from the access.log file and reads through the file and grabs 
 <h2><b>Weekly Task #8: plottask.py</b></h2>
 
 <b>Task:</b></br>
-Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.</br>
-Some marks will be given for making the plot look nice.</br>
+<i>Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.</br>
+Some marks will be given for making the plot look nice.</br></i>
 
 <b>Solution:</b></br>
 I intialize the X-Axis with the given range and then the Y-Axes with the given functions. Next I add colors and labels for each of the Y-Axes to keep it neat and organized and make the graph easier to read and also labels to display where the X and Y-Axes are. Finally I add a legend so that everything I mentioned previously can be displayed on the graph.
@@ -136,12 +136,12 @@ I intialize the X-Axis with the given range and then the Y-Axes with the given f
 <h2><b>Weekly Task #9: weeklyTask9.py</b></h2>
 
 <b>Task:</b></br>
-I want to find which sessionId downloaded the most data</br>
+<i>I want to find which sessionId downloaded the most data</br>
 Read the access.log into a dataframe (see lab)</br>
 Set the date time to be the index (you will need to manipulate this data, see lab)</br>
 Use regular expressions to extract the session id from the URLs and store them in a different column (use the apply function, see lab)</br>
 Use groupBy to get the sum of all the data downloaded by each sessionId.</br>
 Create a plot of this (type of your choice)</br>
-Work out the amount of data each sessionId downloaded in any given day</br>
+Work out the amount of data each sessionId downloaded in any given day</br></i>
 
 <b>Solution:</b></br>
