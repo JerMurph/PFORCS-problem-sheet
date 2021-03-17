@@ -133,7 +133,7 @@ I intialize the X-Axis with the given range and then the Y-Axes with the given f
 <b>References:</b></br>
 <a href="https://scriptverse.academy/tutorials/python-matplotlib-plot-function.html">Matplotlib: Plot a Function y=f(x)</a> - Used to figure out how to add colors and labels to the Y-Axes to make the graph much neater</br>
 
-<h2><b>Weekly Task #9: weeklyTask9.py</b></h2></br>
+<h2><b>Weekly Task #9: weeklyTask9.py</b></h2>
 
 <b>Task:</b></br>
 I want to find which sessionId downloaded the most data</br>
