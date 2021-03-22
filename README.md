@@ -133,7 +133,7 @@ I intialize the X-Axis with the given range and then the Y-Axes with the given f
 <b>References:</b></br>
 <a href="https://scriptverse.academy/tutorials/python-matplotlib-plot-function.html">Matplotlib: Plot a Function y=f(x)</a> - Used to figure out how to add colors and labels to the Y-Axes to make the graph much neater</br>
 
-<h2><b>Weekly Task #9: weeklyTask9.py</b></h2>
+<h2><b>Weekly Task #9: find_sessionID.py</b></h2>
 
 <b>Task:</b></br>
 <i>I want to find which sessionId downloaded the most data</br>
@@ -145,3 +145,7 @@ Create a plot of this (type of your choice)</br>
 Work out the amount of data each sessionId downloaded in any given day</br></i>
 
 <b>Solution:</b></br>
+Open up the file to read in the data into a dataframe and then use the groupby method to get the sum of all data downloaded for each sessionID which will then be used to plot a bar chart to given a visual representation of the data gathered.</br>
+
+<b>References:</b></br>
+<a href="https://www.shanelynn.ie/bar-plots-in-python-using-pandas-dataframes/">Bar Plots in Python using Pandas DataFrames</a> - Used to figure out how to create bar charts from the dataframe data.
