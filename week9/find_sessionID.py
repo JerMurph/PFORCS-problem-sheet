@@ -6,7 +6,7 @@ fileName = 'access.log'
 
 try:
     #Open up the file
-    file = open(fileName, 'r', encoding='utf8')
+    file = open(fileName, 'r')
 
     #Add column headers
     colNames= ('ip', 'dash', 'userID', 'time', 'url', 
