@@ -4,6 +4,8 @@ All the weekly tasks for the GMIT module Programming for Cybersecurity.
 
 Created by Jerry Murphy.
 
+Student Number: G00398827
+
 All the code in this repository was done on Microsoft Visual Studio.
 
 <h2><b>Weekly Task #2: bmi.py</b></h2>
@@ -47,7 +49,7 @@ $ python collatz.py</br>
 
 Please enter a positive integer: 10</br>
 
-10 5 16 8 4 2 1</i></br>
+10 5 16 8 4 2 1</i></br></i>
 
 <b>Solution:</b></br>
 The program asks the user to enter a positive number. The number entered by the user is calculated based on whether it is an odd or even number and continues until the current value is one by which point both program ends. If the number is even, the number is then divided by 2. If the number is odd, it is multiplied by 3 and has a 1 added to the end of it. If the user enters 1 then the program automatically ends. The program displays the initial user input and the current number from each calculation until the current value is 1.
@@ -65,7 +67,7 @@ I suggest that you look at the newton method at estimating square roots
 
 $ python squareroot.py</br>
 Please enter a positive number: 14.5</br>
-The square root of 14.5 is approx. 3.8.</i></br>
+The square root of 14.5 is approx. 3.8.</i></br></i>
 
 <b>Solution:</b></br>
 The program asks the user to enter a positive number. When entered, the program then assigns the input as an argument to the first method (calcSquareRoot) and assigns it to a new variable. The root is then calculated using a while loop which keeps iterating until the calculated root comes inside the tolerence and breaks out of the loop and activates displays the square root to the nearest decimal point.
@@ -93,9 +95,7 @@ The program, through a command line for which I used the cmder command line and 
 
 <b>Task:</b></br>
 <i>Write a program called extract-url.py, that will extract the URLs from an access.log file. </br>
-
-ie The part of the URL that is stored in the access.log file, complete with the query parameters (I am aware that the host name is not stored in this file, the referring host is)</br>
-
+i.e. The part of the URL that is stored in the access.log file, complete with the query parameters (I am aware that the host name is not stored in this file, the referring host is)</br>
 The program should store the URLs as strings in a list</br>
 
 [</br>
@@ -149,3 +149,19 @@ Open up the file to read in the data into a dataframe and then use the groupby m
 
 <b>References:</b></br>
 <a href="https://www.shanelynn.ie/bar-plots-in-python-using-pandas-dataframes/">Bar Plots in Python using Pandas DataFrames</a> - Used to figure out how to create bar charts from the dataframe data.
+
+<h2><b>Weekly Task #10: averageTo.py</b></h2>
+
+<b>Task:</b></br>
+<i>Write a (bullet proof) function called averageTo(aList, toIndex)</br>
+The function should take in a list and an index.</br>
+The function will return the average of the numbers upto and including the toIndex in the aList.</br>
+When I say "bullet proof", I would like the function to always return an integer, even if a error occurs (say return -1), but it will use logging to make a meaningful log</br> warning, for any error that occurs (eg the aList contains an entry that is not a number/ toIndex is not valid, there are many things that could go wrong)</br>
+Write the code to test all the things that could go wrong with this function, and a test to check the function does work.</br>
+The test code can be in the same file or different file.</i></br>
+
+<b>Solution:</b></br>
+The function averageTo performs a series of checks with an initial check to see if the index is less than the lenght of the list and also greater than zero. If it is then the the unction will perform the calculations to find the average number. The function will also perform a series of except messages if there are issues with the index or the list which will be printed out as log message. The program will print out a valid version of the function to determine that the function itself is working perfectly. The program then prints out a main function which displays the several log messages displaying the possible error outcomes. 
+
+<b>References:</b></br>
+<a href="https://www.guru99.com/find-average-list-python.html">Find AVERAGE of a List in Python with Example</a> - Used to figure out how to calculate the average.
