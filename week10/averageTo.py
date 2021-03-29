@@ -8,7 +8,7 @@ def averageTo(aList, toIndex):
     sum_num = 0
     avg = -1
 
-    #Check if the index is greater than the list lenght and is greater than zero
+    #Check if the index is less or equal to the list lenght and is greater than zero
     try:
         if (toIndex <= len(aList)) and (toIndex >= 0):
             try:
